@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,100;1,200;1,300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.Raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --green-color:#77D998;
+}
+
+a {
+    text-decoration: none !important;
+}
+// service-one
+.service-one {
+    background-color: #f7f7f7;
+    .service-content-card {
+        .service-content-card-box {
+            width: 250px;
+            height: 230px;
+            @media (max-width:990px) {
+                width: 100% !important;
+            }
+
+            i {
+                color: var(--green-color) !important;
+            }
+        }
+    }
+    .service-content-link {
+        color: var(--green-color);
+    }
+}
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"
